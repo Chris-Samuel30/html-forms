@@ -11,14 +11,15 @@
     <div class="container">
     <form>
         <label for="Firstname">First Name:</label>
-        <input type="text" placeholder="Enter Firstname here">
+        <input id="Firstname" type="text" placeholder="Enter First name here">
         <br>
         <label for="Email">Email:</label>
-        <input type="email" placeholder="Enter Email address here">
+        <input id="Email" type="email" placeholder="Enter Email address here">
         <br>
         <label for="Gender">Gender:</label>
         <br>
-        <select><option>Male</option>
+        <select id="Gender" placeholder="Choose a gender">
+                <option>Male</option>
                 <option>Female</option>
                 <option>Other</option>
         </select>
@@ -26,7 +27,8 @@
         <br>
         <label for="Comment">Comment:</label>
         <br>
-        <textarea cols=15 rows=10 placeholder="Write comment here"></textarea>
+        <textarea id="Comment" cols=15 rows=10 
+        placeholder="Write comment here"></textarea>
         <br>
         <br>
         <button type="submit">Sign Up</button>
